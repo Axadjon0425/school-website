@@ -1,0 +1,1263 @@
+body {
+    background: #191a1f;
+}
+
+html {
+    transition: .6s ease;
+    scroll-behavior: smooth;
+    -webkit-transition: .6s ease;
+    -moz-transition: .6s ease;
+    -ms-transition: .6s ease;
+    -o-transition: .6s ease;
+}
+
+#header {
+    height: 150px;
+    background: #040507bd;
+    padding-top: 63px;
+}
+
+#tepaga {
+    z-index: 100;
+    width: 100px;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    background: #fea900;
+    background-attachment: fixed;
+    position: fixed;
+    font-size: 15px;
+    margin-top: 545px;
+    padding: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: .4s ease;
+    -webkit-transition: .4s ease;
+    -moz-transition: .4s ease;
+    -ms-transition: .4s ease;
+    -o-transition: .4s ease;
+}
+
+#tepaga:hover {
+    transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    box-shadow: 5px 5px 20px black;
+}
+
+#menu {
+    z-index: 1;
+    width: 100%;
+    background: none;
+}
+
+#logo {
+    margin-right: 200px;
+    font-size: 40px;
+    font-family: Sansita Swashed, sans-serif;
+    font-weight: 400;
+    color: #fec300;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 15px #fff04d;
+    text-align: center;
+}
+
+#home-a {
+    font-family: Mulish, sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    margin-right: 10px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+#home-a:hover {
+    padding-top: 0;
+    color: #fea700;
+}
+
+#malumot {
+    font-family: Mulish, sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    margin-left: 20px;
+}
+
+#malumot:hover {
+    padding-top: 0;
+    color: #fea700;
+}
+
+#oquvchi {
+    font-family: Mulish, sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    margin-left: 20px;
+}
+
+#oquvchi:hover {
+    padding-top: 0;
+    color: #fea700;
+}
+
+#yordamg {
+    font-family: Mulish, sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    margin-left: 20px;
+}
+
+#yordamg:hover {
+    padding-top: 0;
+    color: #fea700;
+}
+
+#biz-bilan-a {
+    font-family: Mulish, sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    margin-left: 20px;
+}
+
+#biz-bilan-a:hover {
+    padding-top: 0;
+    color: #fea700;
+}
+
+#til {
+    list-style: none;
+    width: 140px;
+    background: #cfd4e9;
+    color: black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-right: 10px;
+}
+
+#til-a {
+    color: black;
+    font-family: oleo script, sans-serif;
+}
+
+#til-one:hover {
+    color: white;
+    background: #878b9b;
+}
+
+#til-two:hover {
+    color: white;
+    background: #878b9b;
+}
+
+#bosh-sahifa {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#bosh-title {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bosh-title h1 {
+    font-family: Mulish, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #dfe0e4;
+    line-height: 100px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#bosh-title h2 {
+    font-family: Mulish, sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    color: #fea700;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#bosh-title h3 {
+    font-family: Mulish, sans-serif;
+    font-weight: bold;
+    font-size: 60pxte;
+    color: #dfe0e4;
+    line-height: 100px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+/*Malumotlar
+=======================================*/
+
+#malumotlar {
+    width: 100%;
+    height: 800px;
+    background-color: #050608ce;
+}
+
+#karusel li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #40434c;
+}
+
+#carouselExampleIndicators {
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.carousel-indicators li {
+    background: #40434c;
+}
+
+.carousel-indicators .active {
+    background: #fea700;
+}
+
+#malumot-title {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#malumot-title h1 {
+    font-family: mulish, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: capitalize;
+    color: #fea700;
+}
+
+#malumot-title p {
+    font-family: mulish, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #dfe0e4;
+    ;
+    text-align: center;
+}
+
+#malumot-icon {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    width: 100%;
+    height: 350px;
+    margin-right: 20px;
+    background: rgba(1, 0, 8, 0.685);
+    box-shadow: 3px 3px 15px black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+}
+
+#malumot-icon:hover {
+    border: 5px solid #fea700;
+    transform: scale(0.8, 0.8);
+    -webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+}
+
+#malumot-icon:hover .block {
+    border: 5px solid #fea700;
+    transform: scaleX(360deg);
+    -webkit-transform: scaleX(360deg);
+    -moz-transform: scaleX(360deg);
+    -ms-transform: scaleX(360deg);
+    -o-transform: scaleX(360deg);
+}
+
+#malumot-icon .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    border: 5px solid #40434c;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    transition: all .6s ease;
+}
+
+#malumot-icon:hover .block {
+    border: 5px solid #fea700;
+    transform: rotateX(360deg);
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+    -o-transform: rotateX(360deg);
+}
+
+#malumot-icon .block .fa-chess-queen {
+    font-size: 30px;
+    color: #40434c;
+    transition: all .6s ease;
+}
+
+#malumot-icon .block .fa-book {
+    font-size: 30px;
+    color: #40434c;
+    transition: all .6s ease;
+}
+
+#malumot-icon .block .fa-calculator {
+    font-size: 30px;
+    color: #40434c;
+    transition: all .6s ease;
+}
+
+#malumot-icon:hover .bloc .fa-chess-queen {
+    color: #fea700;
+}
+
+#malumot-icon:hover .bloc .fa-book {
+    color: #fea700;
+}
+
+#malumot-icon:hover .bloc .fa-calculator {
+    color: #fea700;
+}
+
+#malumot-icon .bloc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border: 5px solid #40434c;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    transition: all .6s ease;
+}
+
+#malumot-icon:hover .bloc {
+    border: 5px solid #fea700;
+}
+
+#malumot-icon h2 {
+    margin-top: 30px;
+    font-family: Mulish, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #40434c;
+    text-transform: capitalize;
+    transition: all .6s ease;
+}
+
+#malumot-icon:hover h2 {
+    color: #fea700;
+}
+
+#malumot-icon h3 {
+    font-family: Mulish, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #40434c;
+    text-transform: capitalize;
+    text-align: center;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+}
+
+#malumot-icon:hover h3 {
+    color: #fea700;
+}
+
+#malumot-icon-one {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    width: 100%;
+    height: 350px;
+    margin-right: 20px;
+    background: rgba(1, 0, 8, 0.685);
+    box-shadow: 3px 3px 15px black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+}
+
+#malumot-icon-one:hover {
+    border: 5px solid #fea700;
+    transform: scale(0.8, 0.8);
+    -webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+}
+
+#malumot-icon-one:hover .block {
+    border: 5px solid #fea700;
+    transform: scaleX(360deg);
+    -webkit-transform: scaleX(360deg);
+    -moz-transform: scaleX(360deg);
+    -ms-transform: scaleX(360deg);
+    -o-transform: scaleX(360deg);
+}
+
+#malumot-icon-one .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: 5px solid #40434c;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    transition: all .6s ease;
+}
+
+#malumot-icon-one:hover .block {
+    border: 5px solid #fea700;
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+}
+
+#malumot-icon-one .block .fa-chess-king {
+    font-size: 25px;
+    color: #40434c;
+    ;
+    transition: all .6s ease;
+}
+
+#malumot-icon-one .block .fa-utensils {
+    font-size: 30px;
+    color: #40434c;
+    transition: all .6s ease;
+}
+
+#malumot-icon-one .block .fa-battle-net {
+    font-size: 30px;
+    color: #40434c;
+    transition: all .6s ease;
+}
+
+#malumot-icon-one:hover .bloc .fa-utensils {
+    color: #fea700;
+}
+
+#malumot-icon-one:hover .bloc .fa-battle-net {
+    color: #fea700;
+}
+
+#malumot-icon-one:hover .bloc .fa-chess-king {
+    color: #fea700;
+}
+
+#malumot-icon-one .bloc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border: 5px solid #40434c;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    transition: all .6s ease;
+}
+
+#malumot-icon-one:hover .bloc {
+    border: 5px solid #fea700;
+}
+
+#malumot-icon-one h2 {
+    margin-top: 30px;
+    font-family: Mulish, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #40434c;
+    text-transform: capitalize;
+    transition: all .6s ease;
+    text-align: center;
+}
+
+#malumot-icon-one:hover h2 {
+    color: #fea700;
+}
+
+#malumot-icon-one h3 {
+    font-family: Mulish, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #40434c;
+    text-transform: capitalize;
+    text-align: center;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+}
+
+#malumot-icon-one:hover h3 {
+    color: #fea700;
+}
+
+#malumot-icon-two {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    width: 100%;
+    height: 350px;
+    margin-right: 20px;
+    background: rgba(1, 0, 8, 0.685);
+    box-shadow: 3px 3px 15px black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+}
+
+#malumot-icon-two:hover {
+    border: 5px solid #fea700;
+    transform: scale(0.8, 0.8);
+    -webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+}
+
+#malumot-icon-two:hover .block {
+    border: 5px solid #fea700;
+    transform: scaleX(360deg);
+    -webkit-transform: scaleX(360deg);
+    -moz-transform: scaleX(360deg);
+    -ms-transform: scaleX(360deg);
+    -o-transform: scaleX(360deg);
+}
+
+#malumot-icon-two .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: 5px solid #40434c;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    transition: all .6s ease;
+}
+
+#malumot-icon-two:hover .block {
+    border: 5px solid #fea700;
+    transform: rotateX(360deg);
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+    -o-transform: rotateX(360deg);
+}
+
+#malumot-icon-two .block .fa-chess-rook {
+    font-size: 25px;
+    color: #40434c;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+}
+
+#malumot-icon-two .block .fa-500px {
+    font-size: 25px;
+    color: #40434c;
+    ;
+    transition: all .6s ease;
+}
+
+#malumot-icon-two .block .fa-atlas {
+    font-size: 25px;
+    color: #40434c;
+    ;
+    transition: all .6s ease;
+}
+
+#malumot-icon-two:hover .bloc .fa-chess-rook {
+    color: #fea700;
+}
+
+#malumot-icon-two:hover .bloc .fa-500px {
+    color: #fea700;
+}
+
+#malumot-icon-two:hover .bloc .fa-atlas {
+    color: #fea700;
+}
+
+#malumot-icon-two .bloc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border: 5px solid #40434c;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    transition: all .6s ease;
+}
+
+#malumot-icon-two:hover .bloc {
+    border: 5px solid #fea700;
+}
+
+#malumot-icon-two h2 {
+    margin-top: 30px;
+    font-family: Mulish, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #40434c;
+    text-transform: capitalize;
+    text-align: center;
+    transition: all .6s ease;
+}
+
+#malumot-icon-two:hover h2 {
+    color: #fea700;
+}
+
+#malumot-icon-two h3 {
+    font-family: Mulish, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #40434c;
+    text-transform: capitalize;
+    text-align: center;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+}
+
+#malumot-icon-two:hover h3 {
+    color: #fea700;
+}
+
+#oquvchilar {
+    width: 100%;
+    height: 1350px;
+    background-image: url(../images/adam-winger-WiP2_cwIm3o-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#oquvchi-title {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#oquvchi-title h1 {
+    font-family: mulish, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: capitalize;
+    color: #fea700;
+    text-align: center;
+}
+
+#oquvchi-title p {
+    font-family: mulish, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #dfe0e4;
+    text-align: center;
+}
+
+#oquvchi-card .card {
+    width: 100%;
+    background: #040507bd;
+    border: 5px solid #fea700;
+    margin-top: 20px;
+    color: #fea700;
+    transition: .6s ease;
+    -webkit-transition: .6s ease;
+    -moz-transition: .6s ease;
+    -ms-transition: .6s ease;
+    -o-transition: .6s ease;
+}
+
+#oquvchi-card .card:hover {
+    background: #fea700;
+    color: black;
+    transform: scale(.9, .9);
+    -webkit-transform: scale(.9, .9);
+    -moz-transform: scale(.9, .9);
+    -ms-transform: scale(.9, .9);
+    -o-transform: scale(.9, .9);
+}
+
+#oquvchi-card .card-title {
+    font-family: Mulish, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+#oquvchi-card .card-text {
+    font-family: Mulish, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+}
+
+#oquvchi-card .btn {
+    padding: 5px 20px;
+    background: none;
+    border: 2px solid #fea700;
+    color: #fea700;
+    margin-top: 60px;
+}
+
+#oquvchi-card .card:hover .btn {
+    border: 3px solid black;
+    color: black;
+}
+
+#row-card-one {
+    margin-top: 30px;
+}
+
+#oqtuvchilar {
+    width: 100%;
+    height: 1350px;
+    background-image: url(../images/back2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#oqtuvchi-title {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#oqtuvchi-title h1 {
+    font-family: mulish, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: capitalize;
+    color: #fea700;
+    text-align: center;
+}
+
+#oqtuvchi-title p {
+    font-family: mulish, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #dfe0e4;
+    text-align: center;
+}
+
+#oqtuvchi-card .card {
+    background: #fea700;
+    color: black;
+    margin-top: 20px;
+    transition: .6s ease;
+    -webkit-transition: .6s ease;
+    -moz-transition: .6s ease;
+    -ms-transition: .6s ease;
+    -o-transition: .6s ease;
+}
+
+#oqtuvchi-card .card:hover {
+    background: #040507bd;
+    border: 5px solid #fea700;
+    color: #fea700;
+    transform: scale(.9, .9);
+    -webkit-transform: scale(.9, .9);
+    -moz-transform: scale(.9, .9);
+    -ms-transform: scale(.9, .9);
+    -o-transform: scale(.9, .9);
+}
+
+#oqtuvchi-card .card-title {
+    font-family: Mulish, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+#oqtuvchi-card .card-text {
+    font-family: Mulish, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+}
+
+#oqtuvchi-card .btn {
+    padding: 5px 20px;
+    background: none;
+    border: 3px solid black;
+    color: black;
+    margin-top: 60px;
+}
+
+#oqtuvchi-card .card:hover .btn {
+    border: 3px solid #fea700;
+    color: #fea700;
+}
+
+#row-card-one {
+    margin-top: 30px;
+}
+
+#yordam {
+    height: 800px;
+}
+
+#yordam-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#yordam-title h1 {
+    font-family: mulish, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: capitalize;
+    color: #fea700;
+    text-align: center;
+}
+
+#yordam-title p {
+    font-family: mulish, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #dfe0e4;
+    text-align: center;
+}
+
+#yordam-card .card {
+    width: 350px;
+    height: 400px;
+    background: #fea700;
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#yordam-card .card .fa-search-location {
+    font-size: 50px;
+    color: black;
+    margin-top: 80px;
+}
+
+#yordam-card .card .fa-phone {
+    font-size: 50px;
+    color: black;
+    margin-top: 80px;
+}
+
+#yordam-card .card .fa-code {
+    font-size: 50px;
+    color: black;
+    margin-top: 80px;
+}
+
+#yordam-card .card h4 {
+    font-family: mulish, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#yordam-card .card p {
+    font-family: mulish, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#yordam-card .card .btn {
+    background: #fea700;
+    border: 2px solid black;
+    color: black;
+    padding: 8px 20px;
+    font-family: mulish, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#yordam-card .card .btn:hover {
+    background: #ffb834;
+    color: white;
+    border: 2px solid white;
+}
+
+#royxat {
+    width: 100%;
+    height: 700px;
+    background: rgba(0, 0, 0, 0.561);
+}
+
+#tuman {
+    color: #fea700;
+}
+
+#rozimisiz {
+    color: #fea700;
+}
+
+#royxat .btn {
+    background: #fea700;
+    color: black;
+    border: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+#royxat h1 {
+    font-family: mulish, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: capitalize;
+    color: #fea700;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#royxat-input {
+    margin-top: 50px;
+}
+
+#footer {
+    width: 1000px;
+    height: 90px;
+    margin-top: 250px;
+    background-color: #fea700;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding-top: 30px;
+}
+
+#footer a {
+    text-decoration: none;
+    font-family: mulish, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+
+.fa-facebook-square {
+    font-size: 30px;
+    margin-right: 10px;
+    color: black;
+}
+
+.fa-facebook-square:hover {
+    color: rgb(36, 32, 32);
+}
+
+.fa-twitter {
+    font-size: 30px;
+    margin-right: 10px;
+    color: black;
+}
+
+.fa-twitter:hover {
+    color: rgb(36, 32, 32);
+}
+
+.fa-telegram {
+    font-size: 30px;
+    margin-right: 10px;
+    color: black;
+}
+
+.fa-telegram:hover {
+    color: rgb(36, 32, 32);
+}
+
+.fa-instagram {
+    margin-left: 15px;
+    font-size: 30px;
+    color: black;
+}
+
+.fa-instagram:hover {
+    color: rgb(36, 32, 32);
+}
+
+.modal-content {
+    background: #ffffff;
+}
+
+#exampleModalLabel {
+    color: #fea700;
+}
+
+span {
+    color: #fea700;
+}
+
+.form-control {
+    border: #fea700;
+    background: #fea700;
+}
+
+#toggle {
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
+#collapseOne {
+    background: #191a1f;
+    color: black;
+    font-size: 20px;
+}
+
+#collapse-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    width: 100%;
+    height: 350px;
+    margin-right: 20px;
+    background: rgba(1, 0, 8, 0.685);
+    box-shadow: 3px 3px 20px black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+}
+
+#collapse-block:hover {
+    border: 5px solid #fea700;
+    transform: scale(0.9, 0.9);
+    -webkit-transform: scale(0.9, 0.9);
+    -moz-transform: scale(0.9, 0.9);
+    -ms-transform: scale(0.9, 0.9);
+    -o-transform: scale(0.9, 0.9);
+}
+
+#collapse-block h2 {
+    margin-top: 30px;
+    font-family: Mulish, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #40434c;
+    text-transform: capitalize;
+    transition: all .6s ease;
+}
+
+#collapse-block:hover h2 {
+    color: #fea700;
+}
+
+#collapse-block h3 {
+    font-family: Mulish, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #40434c;
+    text-transform: capitalize;
+    text-align: center;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+}
+
+#collapse-block:hover h3 {
+    color: #fea700;
+}
+
+#collapse-block .fa-apple {
+    font-size: 60px;
+    color: #40434c;
+    transition: all .6s ease;
+}
+
+#collapse-block:hover .fa-apple {
+    color: #fea700;
+}
+
+#collapse-block .fa-microsoft {
+    font-size: 60px;
+    color: #40434c;
+    transition: all .6s ease;
+}
+
+#collapse-block:hover .fa-microsoft {
+    color: #fea700;
+}
+
+#collapse-block .fa-amazon {
+    font-size: 60px;
+    color: #40434c;
+    transition: all .6s ease;
+}
+
+#collapse-block:hover .fa-amazon {
+    color: #fea700;
+}
+
+#roxat-ahreft {
+    text-decoration: none;
+    color: black;
+}
+
+#roxat-ahreft:hover {
+    color: rgb(80, 74, 74);
+}
+
+.card-header:first-child {
+    background: #fea700;
+}
+
+#collapseTwo {
+    background: #fea700;
+    color: black;
+    font-size: 20px;
+    font-family: mulish, sans-serif;
+    font-weight: 600;
+}
+
+#collapseThree {
+    background: #fea700;
+    color: black;
+    font-size: 20px;
+    font-family: mulish, sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+#qollanma {
+    background: #fea700;
+    color: black;
+    font-size: 20px;
+    font-family: mulish, sans-serif;
+    font-weight: 600;
+}

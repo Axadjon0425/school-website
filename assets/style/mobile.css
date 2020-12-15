@@ -1,0 +1,323 @@
+@media(max-width:1290px) {
+    #home-a {
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 10px;
+    }
+    #malumot {
+        margin-left: 0;
+        font-size: 10px;
+    }
+    #oquvchi {
+        margin-left: 0;
+        font-size: 10px;
+    }
+    #yordamg {
+        margin-left: 0;
+        font-size: 10px;
+    }
+    #biz-bilan-a {
+        margin-left: 0;
+        font-size: 10px;
+    }
+}
+
+@media(max-width:991px) {
+    #menu {
+        background: none;
+    }
+    #logo {
+        margin-right: 0;
+    }
+    #home-a {
+        text-align: center;
+        border: none;
+    }
+    #malumot {
+        text-align: center;
+        border: none;
+    }
+    #oquvchi {
+        text-align: center;
+        border: none;
+    }
+    #yordamg {
+        text-align: center;
+        border: none;
+    }
+    #biz-bilan-a {
+        text-align: center;
+        border: none;
+    }
+}
+
+@media(max-width:1260px) {
+    #malumotlar {
+        height: 600px;
+    }
+    #malumot-icon {
+        max-width: 200px;
+        width: 100%;
+        height: 210px;
+    }
+    #malumot-icon .block {
+        width: 70px;
+        height: 70px;
+    }
+    #malumot-icon .bloc {
+        width: 50px;
+        height: 50px;
+    }
+    #malumot-icon h2 {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    #malumot-icon h3 {
+        font-size: 10px;
+    }
+    #malumot-icon .block .fa-chess-queen {
+        font-size: 20px;
+    }
+    #malumot-icon .block .fa-book {
+        font-size: 20px;
+    }
+    #malumot-icon .block .fa-calculator {
+        font-size: 20px;
+    }
+    #malumot-icon-one {
+        max-width: 200px;
+        width: 100%;
+        height: 210px;
+        margin-right: 20px;
+    }
+    #malumot-icon-one .block {
+        width: 70px;
+        height: 70px;
+    }
+    #malumot-icon-one .bloc {
+        width: 50px;
+        height: 50px;
+    }
+    #malumot-icon-one h2 {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    #malumot-icon-one h3 {
+        font-size: 10px;
+    }
+    #malumot-icon-one .block .fa-chess-queen {
+        font-size: 20px;
+    }
+    #malumot-icon-one .block .fa-book {
+        font-size: 20px;
+    }
+    #malumot-icon-one .block .fa-calculator {
+        font-size: 20px;
+    }
+    #malumot-icon-two {
+        max-width: 200px;
+        width: 100%;
+        height: 210px;
+    }
+    #malumot-icon-two .block {
+        width: 70px;
+        height: 70px;
+    }
+    #malumot-icon-two .bloc {
+        width: 50px;
+        height: 50px;
+    }
+    #malumot-icon-two h2 {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    #malumot-icon-two h3 {
+        font-size: 10px;
+    }
+    #malumot-icon-two .block .fa-chess-queen {
+        font-size: 20px;
+    }
+    #malumot-icon-two .block .fa-book {
+        font-size: 20px;
+    }
+    #malumot-icon-two .block .fa-calculator {
+        font-size: 20px;
+    }
+    #collapse-block {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:840px) {
+    #malumot-icon-one {
+        margin-top: 0px;
+    }
+    #malumot-icon-two {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:1200px) {
+    #row {
+        margin-top: 30px;
+    }
+    #oquvchilar {
+        height: 2000px;
+    }
+    #oqtuvchilar {
+        height: 2000px;
+    }
+    #yordam {
+        height: 1200px;
+    }
+    #familiya {
+        margin-top: 30px;
+    }
+    #royxat-qollanma {
+        margin-top: 20px;
+    }
+    #tepaga {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media(max-width:1000px) {
+    #oquvchilar {
+        height: 3100px;
+    }
+    #oqtuvchilar {
+        height: 3100px;
+    }
+    #yordam {
+        height: 1700px;
+    }
+    #bosh-sahifa {
+        height: 400px;
+    }
+    #bosh-title {
+        margin-top: -100px;
+    }
+    #bosh-title h1 {
+        font-size: 40px;
+    }
+    #bosh-title h2 {
+        font-size: 35px;
+    }
+    #bosh-title h3 {
+        font-size: 40px;
+    }
+    #malumot-title h1 {
+        font-size: 40px;
+    }
+    #malumot-title p {
+        font-size: 10px;
+    }
+    #oquvchi-title h1 {
+        font-size: 40px;
+    }
+    #oquvchi-title p {
+        font-size: 10px;
+    }
+    #oqtuvchi-title h1 {
+        font-size: 40px;
+    }
+    #oqtuvchi-title p {
+        font-size: 10px;
+    }
+    #yordam-title h1 {
+        font-size: 40px;
+    }
+    #yordam-title p {
+        font-size: 10px;
+    }
+    #royxat h1 {
+        font-size: 40px;
+    }
+    #tepaga {
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+        margin-left: -10px;
+    }
+}
+
+@media(max-width:890px) {
+    .fa-facebook-square {
+        margin-left: 50px;
+        font-size: 30px;
+    }
+    .fa-twitter {
+        font-size: 30px;
+    }
+    .fa-telegram {
+        font-size: 30px;
+    }
+    .fa-instagram {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:768px) {
+    #malumotlar {
+        height: 670px;
+    }
+    #bosh-title h1 {
+        font-size: 30px;
+    }
+    #bosh-title h2 {
+        font-size: 25px;
+    }
+}
+
+#bosh-title h3 {
+    font-size: 30px;
+}
+
+@media(max-width:720px) {
+    .fa-facebook-square {
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .fa-twitter {
+        font-size: 20px;
+    }
+    .fa-telegram {
+        font-size: 20px;
+    }
+    .fa-instagram {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:560px) {
+    #royxat {
+        height: 800px;
+    }
+    .fa-facebook-square {
+        margin-left: 30px;
+        margin-right: 0;
+        font-size: 20px;
+    }
+    .fa-twitter {
+        margin-right: 0;
+        font-size: 20px;
+    }
+    .fa-telegram {
+        margin-right: 0;
+        font-size: 20px;
+    }
+    .fa-instagram {
+        margin-right: 0;
+        font-size: 20px;
+    }
+}
+
+@media(max-width:470px) {
+    #malumotlar {
+        height: 920px;
+    }
+    #malumot-icon-one {
+        margin-top: 20px;
+    }
+}
